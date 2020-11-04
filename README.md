@@ -18,7 +18,7 @@ create schema:testdb2
 CREATE TABLE product (name varchar(100),price numeric default 0,id numeric,	primary key (id));
 create sequence testseq2;
 
----- spring batch cleanup scripts.
+-- spring batch cleanup scripts.
 delete from mif_batch_job_execution_params;
 delete from mif_batch_step_execution_context;
 delete from mif_batch_step_execution;
